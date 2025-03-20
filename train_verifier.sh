@@ -42,9 +42,3 @@ python ./verifier_training_gsm8k.py \
     
 
 echo "END TIME: $(date)"
-
-
-# srun -p d8d15722-cad5-40e8-96a9-83600c6078c5 --workspace-id a8d3d25d-4315-4e85-a7b3-df6528320211 -f pt -r N1lS.Ia.I20.1 -N 1 -d StandAlone --container-image registry.st-sh-01.sensecore.cn/scgrd_llm_ccr/dingchuanghao:20231225-15h42m59s bash -c "cd /home/mnt/dingchuanghao/workspace/CoRe-main/ && source activate /home/mnt/dingchuanghao/miniconda3/envs/py310-pt201 && bash train_verifier.sh "
-# srun -p fdea421e-a296-46fc-9be7-03522bd0be22 --workspace-id a8d3d25d-4315-4e85-a7b3-df6528320211 -f pt -r N1lS.Ib.I20.4 -N 1 -d StandAlone --container-image registry.st-sh-01.sensecore.cn/scgrd_llm_ccr/dingchuanghao:20231225-15h42m59s bash -c "cd /home/mnt/dingchuanghao/workspace/CoRe-main/ && source activate /home/mnt/dingchuanghao/miniconda3/envs/py310-pt201 && bash train_verifier.sh "
-
-# srun -p fdea421e-a296-46fc-9be7-03522bd0be22 --workspace-id a8d3d25d-4315-4e85-a7b3-df6528320211 -f pt -r N1lS.Ib.I20.8 -N 1 -d StandAlone --container-image registry.st-sh-01.sensecore.cn/scgrd_llm_ccr/dingchuanghao:20231225-15h42m59s bash -c "cd /home/mnt/dingchuanghao/workspace/CoRe-main/ && source activate /home/mnt/dingchuanghao/miniconda3/envs/py310-pt201 && bash train_verifier.sh "
