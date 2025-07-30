@@ -24,13 +24,12 @@ This repository implements a verification framework designed to boost the decisi
 
 - **Speculative Reward Modeling:** A reward mechanism that guides LLMs to simulate reasoning trajectories and make better decisions.
 - **Multi-Model Architectures:** Implementations based on BERT and GPT models for structured verification and decision-making tasks.
-- **Structured Reasoning Tasks:** Focus on tasks involving high-density structured knowledge (e.g., GSM8K), where the model must generate evidence-supported answers.
+
 
 The repository provides:
 - Data models and preprocessing scripts.
 - Model architecture definitions.
 - Training and testing scripts for GSM8K.
-- Utility tools for supporting overall operations.
 
 ---
 
