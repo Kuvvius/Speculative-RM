@@ -1,7 +1,7 @@
 # Speculative Reward Model Boosts Decision Making Ability of LLMs Cost-Effectively
 
 Welcome to the official repository for the paper **"Speculative Reward Model Boosts Decision Making Ability of LLMs Cost-Effectively"**. This anonymous repository contains the implementation, training, and testing scripts for our verification framework, which leverages both BERT and GPT-based architectures to enhance the decision-making capabilities of large language models (LLMs) in structured reasoning tasks (e.g., GSM8K).
-
+【Work in progress】
 ---
 
 ## Table of Contents
